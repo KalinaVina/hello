@@ -12,7 +12,6 @@ public class Start {
         double num5 = 64.1;
         
         char sym = 'A';
-        boolean or = true;
-        
+
     }}
 
