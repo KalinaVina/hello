@@ -11,5 +11,5 @@ public class Start {
         char sym = 'A';
         boolean or = true;
         
-    }
+    }}
 
