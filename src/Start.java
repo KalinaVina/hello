@@ -1,4 +1,7 @@
 public class Start {
+    static int numA = 1; // статическая, не используется др классом
+    public int numB = 2; // публичная,можно использовать др классами
+    public final double numC = 3.14; // константа( нельзя изменять)
     public static void main(String[] args){
         byte num1 = 8;
         short num2 = 16;
