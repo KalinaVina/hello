@@ -10,6 +10,8 @@ public class Arithmetic {
         int res4 = num1*num2;
         int res5 = num1%num3; // остаток от деления
         int res6 = num1/num3;
+        int res7 = num1-num3++; // сначала res7 = 7, num3=3+1
+        int res8 = num1 - ++num2; // сначала num2 = num2+1, res8 = 10-6 (C -- аналогично)
 
         System.out.println(res1);
         System.out.println(res2);
@@ -17,6 +19,13 @@ public class Arithmetic {
         System.out.println(res4);
         System.out.println(res5);
         System.out.println(res6);
+        System.out.println(res7);
+        System.out.println(num3);
+        System.out.println(res6);
+        System.out.println(res7);
+        System.out.println(num2);
+        System.out.println(res8);
+        System.out.println(num2);
     }
 
 }
